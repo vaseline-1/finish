@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style-pj2.css">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <h1>
+        <button data-animation-scroll="true" data-target="#main">summer</button>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <button data-animation-scroll="true" data-target="#about">
+              휴가 어디로?
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#features">
+              장소 추천
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#portfolio">
+              유의 사항
+            </button>
+          </li>
+          <li>
+            <button data-animation-scroll="true" data-target="#contact">
+              추천 app
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- //end header -->
+  <!-- main 글자 애니메이션-->
+  <main id="main">
+    <div class="container">
+      <h4>with TRIP</h4>
+      <h2 class="active"> 여름 휴가 <span></span></h2>
+      <p>여름 휴가 계획 세우셨나요?</p>
+      <p>아직이시라면, 계획을 세워드리겠습니다!</p>
+      <button class="download">Let's go on a trip</button>
+      <button class="mouse"><i class="fa-solid fa-ship"></i></button>
+    </div>
+  </main>
+  <!-- //end Main -->
+  <!-- About Me -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="title">
+        <h4>여름 휴가</h4>
+        <h2>이번엔 어디로 갈까요?</h2>
+      </div>
+      <div class="about-self">
+        <div class="left">
+          <img src="images/tour.webp" alt="">
+        </div>
+        <div class="right">
+          <h3>안녕하세요! <strong>여행 가이드입니다</strong></h3>
+          <p>무척 더워진 요즘 여름 휴가 계획 세우셨나요?</p>
+          <p>아마 대부분 7월 말 8월 초부터 휴가 기간일텐데요.</p>
+          <p>바다, 계곡, 워터파크 등 시원한 곳이라면 어디든 좋아요!</p>
+          <p>이번 여름 휴가 추천지를 소개하고자 합니다. 계획에 도움이 <br> 되었으면 좋겠네요!</p>
+          <div class="social">
+            <a href="#">
+              <i class="fa-solid fa-ellipsis"></i>
+              <i class="fa-solid fa-plane"></i>
+              <i class="fa-solid fa-ellipsis"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-car"></i>
+              <i class="fa-solid fa-ellipsis"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-ship"></i>
+              <i class="fa-solid fa-ellipsis"></i>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-train"></i>
+              <i class="fa-solid fa-ellipsis"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end About Me -->
+  <!-- What I Do -->
+  <section id="features" class="do">
+    <div class="container">
+      <div class="title">
+        <h4>여행 위치 정하기</h4>
+        <h2>어디를 가고 싶은가요?</h2>
+        <h5> *설명을 누르면 소개 사이트로 이동합니다 </h5>
+      </div>
+      <div class="do-me">                
+        <div class="do-inner gi">
+          <div class="icon">
+            <i class="fa-solid fa-1"></i>
+          </div>
+          <div class="content">
+            <h3>거제도</h3>
+            <a href="https://tour.geoje.go.kr/index.geoje" target="_blank">다양한 해산물 먹고 바다와 외도 여행하기!</a>
+            <!-- <p>다양한 해산물을 먹고 바다를 구경하고, 외도 여행하기!</p> -->
+          </div>
+        </div>        
+        <div class="do-inner hi">
+          <div class="icon">
+            <i class="fa-solid fa-2"></i>        
+          </div>
+          <div class="content">
+            <h3>경주</h3>
+            <a href="https://www.gyeongju.go.kr/tour/index.do" target="_blank"><p>신라의 역사를 품은 도시<br> 경주는 어떤가요?</p></a>
+            
+          </div>
+        </div>
+        <div class="do-inner ki">
+          <div class="icon">
+            <i class="fa-solid fa-3"></i>
+          </div>
+          <div class="content">
+            <h3>가평</h3>
+            <a href="https://www.camptongforest.com/" target="_blank"><p>여름 물놀이 중 빠지는 <br>빠질 수 없죠!</p></a>
+          </div>
+        </div>
+        <div class="do-inner ho">
+          <div class="icon">
+            <i class="fa-solid fa-4"></i>
+          </div>
+          <div class="content">
+            <h3>호캉스</h3>
+            <a href="https://www.shillahotels.com/index.do" target="_blank"><p>경치 좋은 호텔에서 조식과 룸서비스 등을 이용하며 즐기는 호캉스</p></a>      
+          </div>
+        </div>
+        <div class="do-inner da">
+          <div class="icon">
+            <i class="fa-solid fa-5"></i>
+          </div>
+          <div class="content">
+            <h3>베트낭, 다낭</h3>
+            <a href="https://www.expedia.co.kr/Da-Nang.dx974" target="_blank"> <p>요즘 핫하게 떠오르는 해외 여행지, 다낭!</p></a>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- //end What I Do -->
+  <!-- Background -->
+  <div class="bg">
+  </div>
+  <!-- //end Background-->
+  <!-- PortFolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="title">
+        <h4>휴가철</h4>
+        <h2 class="red1"><i class="fa-solid fa-ban"></i> 유의 사항 </h2>
+      </div>
+      <div class="yo">
+        <img src="images/no-swimming.jpg" alt="">
+        </div>
+        <div class="mi">
+        <h3> 즐거운 여름 휴가, 안전한 여름 휴가</h3>
+        <p>덥고 습한 날씨로 지친 몸과 마음을 쉬고 회복하고 즐기는 여름 휴가. 하지만 모두가 즐거울 여름 휴가에 다치면 <br>안 되니 안전 수칙 알아보아요</p>
+        <h2> 1. 식사 후 2시간 이내 입영<i class="fa-solid fa-person-swimming"></i> 금지 </h2>
+        <h2> 2. 너무 깊은 곳에 들어가지 않기 <i class="fa-solid fa-person-drowning"></i></h2>
+        <h2> 3. 물놀이 도중 <i class="fa-solid fa-umbrella-beach"></i> 적절한 휴식 가지기</h2>
+        <h2> 4. 튜브, 구멍조끼 <i class="fa-solid fa-vest"></i> 등 착용하기 </h2>
+        <h2> 5. <i class="fa-solid fa-sun"></i> 썬크림 바르기 </h2>
+      </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- //end PortFolio -->
+   
+   <!-- Contact With Me -->
+   <section id="contact" class="contact">
+    <div class="container">
+      <div class="title">
+        <h4>추천 APP</h4>
+        <h2>인공 지능이 세워주는 계획</h2>
+      </div>
+      <div class="mo">
+        <img src="images/unnamed.png" alt="">
+        </div>
+        <div class="th">
+        <h3> 사용자들의 경험을 토대로 인공지능이 <br>만들어주는 여행 계획. 여행 스타일, 방식에 따라 여러 가지 방법, 장소, 숙소 등을 알려드립니다 
+        </h3>
+        </div>
+      <div class="contact-me">
+        <div class="left">
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-paperclip"></i>
+            </div>
+            <div class="info-text">
+              <a href="https://play.google.com/store/apps/details?id=com.titicacacorp.triple&hl=ko" title="app 다운로드 주소">트리블 앱 다운 주소</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-location-pin"></i>
+            </div>
+            <div class="info-text">
+              <h3>계획 세우러 가기</h3>
+              <a href="https://triple.guide/trips/promotion/customized-schedule" title="계획 세우기">여행 계획 세우기</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="info-text">
+              <h3>트리블 공식 유튜브</h3>
+              <a href="https://www.youtube.com/@%ED%8A%B8%EB%A6%AC%ED%94%8C" title="트리블 유튜브">트리블 공식 유튜브</a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <p> 문의 사항 보내기</p>
+          <form action="#">
+            <div class="form-group">
+              <label for="name">name</label>
+              <input type="text" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="text" id="email">
+            </div>
+            <div class="form-group">
+              <label for="msg">message</label>
+              <textarea id="msg"></textarea>
+            </div>
+            <button>send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Contact With Me -->
+  <!-- script 태그는 수정하지 않습니다. -->
+  <script src="script-pj.js"></script>
+</body>
+</html>
